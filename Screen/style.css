@@ -1,0 +1,52 @@
+html{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.half{
+	float: left;
+	text-align: center;
+    min-height: 550px;
+    width: 550px;
+	margin: 50px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: #fff;
+	box-shadow: 2px 8px 24px #333;
+}
+
+.half>div{
+    text-align: center;
+    font-size: 40px;
+    line-height: 2em;
+}
+
+#vs{
+	color: #fff;
+	width: 200px;
+	height: 200px;
+	z-index: 3;
+    top: 300px;
+    margin-left: 650px;
+	text-align: center;
+	font-size: 100px;
+    font-weight: bold;
+	border-radius: 100px;
+	position: absolute;
+    background-color: #333;
+}
+
+.devices{  
+    background: #fff;  
+    height:100px;  
+    width:300px;  
+    line-height:28px;  
+    font-size: 35px;
+    text-align: center;
+    text-align-last: center;
+    border:8px solid #5a96e6;   
+    border-radius:20px;  
+} 

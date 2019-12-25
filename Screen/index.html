@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>屏幕尺寸计算</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+
+        <div id="vs" class="button" onclick="getResult()">
+            <div style="position: absolute; top: 33px; left: 33px;">VS</div>
+        </div>
+    
+        <div class="half" id="left">
+            <form name="form1">
+                <select class="devices" name="select1">
+                    <option value="" selected>当前设备</option>
+                    <option value="5.15,16,9">小米 6</option>
+                    <option value="6.67,19.5,9">一加 7 Pro</option>
+                    <option value="5.99,18,9">坚果 Pro 2</option>
+                    <option value="5.5,16,9">iPhone 8 Plus</option>
+                    <option value="7.9,4,3">iPad mini 5</option>
+                    <option value="10.5,4,3">iPad Air 3</option>
+                    <option value="13.3,16,9">XPS 13</option>
+                    <option value="15.6,16,9">Alienware 15</option>
+                    <option value="13.3,16,10">小新 Pro 13</option>
+                    <option value="16,16,10">Macbook Pro</option>
+                </select>
+            </form>
+            <div><br></div>
+            <div><br></div>
+            <div id = "1">屏幕比例不同设备</div>
+            <div id = "2">无法直接比较大小</div>
+        </div>
+       
+        <div class="half">
+            <form name="form2">
+                <select class="devices" name="select2">
+                    <option value="" selected>欲知设备</option>
+                    <option value="5.15,16,9">小米 6</option>
+                    <option value="6.67,19.5,9">一加7 Pro</option>
+                    <option value="5.99,18,9">坚果 Pro 2</option>
+                    <option value="5.5,16,9">iPhone 8 Plus</option>
+                    <option value="7.9,4,3">iPad mini 5</option>
+                    <option value="10.5,4,3">iPad Air 3</option>
+                    <option value="13.3,16,9">XPS 13</option>
+                    <option value="15.6,16,9">Alienware 15</option>
+                    <option value="13.3,16,10">小新 Pro 13</option>
+                    <option value="16,16,10">Macbook Pro</option>
+                </select>
+            </form>
+            <div><br></div>
+            <div id = "3"></div>
+            <div id = "4">所以有此小工具</div>
+            <div id = "5">可计算实际面积</div>
+            <div id = "6">之比，以供参考</div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
